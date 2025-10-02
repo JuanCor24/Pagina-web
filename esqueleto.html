@@ -1,0 +1,395 @@
+<!--Para poner la plantilla usar  ! y TAB-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+
+    <!-- Para cargar los iconos desde la pagina-->
+
+     <!--  Font awesome -->
+        
+     
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Portfolio</title>
+    <link rel = "stylesheet" href = "apariencia.css">
+</head>
+<body>
+    <!-- MENU DE ARRIBA SOLAMENTE  -->
+    <div class="contenedor-header">
+        <header>
+            <div class = "logo">
+                <a href="#",>Juan Diego </a>
+            </div>
+            <nav id = "nav">
+                <ul>
+                    <li><a href ="#inicio">Home</a></li>
+                    <li><a href ="#sobre_mi">About me</a></li>
+                    <li><a href ="#skills">Skills</a></li>
+                    <li><a href ="#curriculum">Curriculum</a></li>
+                    <li><a href ="#portafolio">Portfolio</a></li>
+                    <li><a href ="#contacto">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class = "nav-responsive">
+                <i class="fa-notdog fa-solid fa-bars"></i>
+            </div>
+            
+
+        </header>        
+    </div>
+    
+    <section id = "inicio" class = "inicio">
+        <div class = "contenido-banner">
+            <div class = "contenidodelaimagen">
+                <img src = "imagenes/de perfil.jpg" alt = "">
+            </div>
+            <h1>Juan Diego</h1>
+            <h2>Ingeniero de Sistemas</h2>
+            <h3>Con énfasis en IA y Ciencia de Datos</h3>
+            <!--Esto es para referenciar despues la seccion-->
+            <div class = "redes">
+                <a href = "#"><i class="fa-brands fa-linkedin"></i></a> 
+                <a href = "#"><i class="fa-brands fa-github"></i></a>
+                <a href = "#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Seccion "about me" -->
+    <section id = "sobre_mi" class = "sobre_mi">
+        <div class="contenedor-sobre_mi">
+            <h2>About Me</h2>
+            <p><span>Hello,my name is Juan Diego Cordoba.</span> </p>
+            <!-- p es para parrafos y span es un contenedor en linea-->
+             <!-- strong es para ponerlo en negrilla-->
+              <!-- span es para poder personalizarlo -->
+            <div class="fila">
+                <div class="columna">
+                    <h3>Personal dates</h3>
+                    <ul>
+                        <li>
+                            <strong>Email:</strong>
+                            juandiegocordoba366@gmail.com
+                        </li>
+                        <li>
+                            <strong>Cellphone:</strong>
+                            +57 3107345481
+                        </li>
+                        
+                        <li>
+                            <strong>Last job:</strong>
+                            <span>Data Analyst</span>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <div class="contenedor-intereses">
+                    <h3>Personal interests</h3>    
+                    <div class="interes">
+                        <i class="fa-solid fa-trophy"></i>
+                        <span>Computer Competitions</span>
+                    </div>
+
+                    <div class="interes">
+                        <i class="fa-regular fa-chess-pawn"></i>
+                        <span>Mental sports</span>
+                    </div>
+
+                    <div class="interes">
+                        <i class="fa-solid fa-language"></i>
+                        <span>Languages</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <Button>
+            Download my CV
+            <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+            </Button>
+            
+
+        </div>
+        
+    </section>
+
+    <!--Seccion skills-->
+    <section id = "skills" class = "skills">
+        <div class = "contenedor-habilidades">
+            <h2>Skills</h2>
+            <div class = "fila">
+                <div class = "columna">
+                    <h3>Technical Skills</h3>
+                    <div class = "habilidad">
+                        <span>JavaScript</span>
+                        <div class = "barra-skill">
+                            <div class = "progreso javascript">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "habilidad">
+                        <span>HTML & CSS</span>
+                        <div class = "barra-skill">
+                            <div class = "progreso htmlcss">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class = "habilidad">
+                        <span>C++</span>
+                        <div class = "barra-skill">
+                            <div class = "progreso cmasmas">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "habilidad">
+                        <span>GSAP</span>
+                        <div class = "barra-skill">
+                            <div class = "progreso gsap">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "habilidad">
+                        <span>SQL</span>
+                        <div class = "barra-skill">
+                            <div class = "progreso sql">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "habilidad">
+                        <span>Kotlin</span>
+                        <div class = "barra-skill">
+                            <div class = "progreso kotlin">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "habilidad">
+                        <span>Python</span>
+                        <div class = "barra-skill">
+                            <div class = "progreso python">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class = "columna">
+                    <h3>Professional Skills</h3>
+
+
+
+                    <div class = "habilidad">
+                        <span>TeamWork</span>
+                        <div class = "barra-skill">
+                            <div class = "progreso teamwork">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "habilidad">
+                        <span>Scrum Master</span>
+                        <div class = "barra-skill">
+                            <div class = "progreso scrummaster">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+
+    <!--   curriculum -->
+    <section id = "curriculum" class = "curriculum">
+        <div class = "contenedorcurriculum">
+            <h2>Curriculum</h2>
+            <div class = "fila">
+                <div class = "col izquierda">
+                    <h3>Education</h3>
+                    <div class = "item izquierda">
+                        <h4>Systems Engineering</h4>
+                        <span class = "lugar">Pontificia Universidad Javeriana</span>
+                        <span class = "fecha">2021-2025</span>
+                        <ul>
+                            <li>Emphasis: Data analysis and AI</li>
+                            <li>Awarded a scholarship for the entire degree</li>
+                        </ul>
+                        <div class = "conectori">
+                            <div class = "circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "col derecha">
+                    <h3>Work Experience</h3>
+                    <div class = "item derecha">
+                        <h4>Teacher Assistant</h4>
+                        <span class = "lugar">Pontificia Universidad Javeriana</span>
+                        <span class = "fecha">2022-2024</span>
+                        <span class = "materias"><br>Courses:Introduction to Programming, Advanced Programming, Data Structures.</span>
+                        <ul>
+                            <li> Weekly assist Students with doubts in their course or workshop (2 hours) (Average 3 people).</li>
+                            <li>Teaching good practices writing code basic problem-solving techniques of exams and its implementation.</li>
+                            <li>Help the teacher in grading the workshops of his students (20 People).</li>
+                        </ul>
+                        <div class = "conectord">
+                            <div class = "circulod"></div>
+                        </div>
+                    </div>
+                    <div class = "item derecha">
+                        <h4>Data analyst</h4>
+                        <span class = "lugar">Pontificia Universidad Javeriana</span>
+                        <span class = "fecha">2024</span>
+                        <ul>
+                            <li>Designed user-friendly Excel forms to feed the database.</li>
+                            <li>Organized and structured data tables in Excel implementing automated cleaning and validation processes to ensure consistency and accuracy.</li>
+                            <li>Researched and analyzed students and projects data using Power BI to identify trends and key insights.</li>
+                            <li>Accomplished a 30% error reduction as measured by error rate input by automating validation, using dropdowns and macros. Creation and updating of customer and supplier files.</li>
+                        </ul>
+                        <div class = "conectord">
+                            <div class = "circulod"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--Seccion Portafolio-->
+    <section id = "portafolio" class = "portafolio">
+        <div class = "contenido-seccion">
+            <h2>Portfolio</h2>
+            <div class = "titulo">
+                <h3>Medical Assistance App</h3>
+            </div>
+
+            <div class = "galeria">
+                
+
+                <div class = "proyecto">
+                     <img src = "imagenes/Foto del menu de la tesis.png" alt = "">
+                    <div class = "overlay">
+                        <h3>
+                        Menu   
+                        </h3>
+                            <p>Medical Assistance App</p>
+                    </div>
+                </div>
+
+
+                <div class = "proyecto">
+                    <img src = "imagenes/Foto de toma de medicamento de la tesis (1).png" alt = "">
+                    <div class = "overlay">
+                        <h3>
+                         Medicine Scanner   
+                        </h3>
+                        <p>Medical Assistance App</p>
+                    </div>
+                </div>
+
+                <div class = "proyecto">
+                    <img src = "imagenes/Foto de signos vitales de la tesis.png" alt = "">
+                    <div class = "overlay">
+                        <h3>
+                         Vital Signs   
+                        </h3>
+                        <p>Medical Assistance App</p>
+                    </div>
+                </div>
+
+                
+
+
+            </div>
+
+
+            <div class = "titulo">
+                <h3>Secop 2 Data Analysis in Huila</h3>
+            </div>
+
+            <div class = "galeria">
+                
+
+                <div class = "proyecto">
+                     <img src = "imagenes/mapa.png" alt = "">
+                    <div class = "overlay">
+                        <h3>
+                        Contracts number
+                        </h3>
+                            <p>Colombia</p>
+                    </div>
+                </div>
+
+
+                <div class = "proyecto">
+                    <img src = "imagenes/promedio.png" alt = "">
+                    <div class = "overlay">
+                        <h3>
+                         Average answer to the procedure   
+                        </h3>
+                        <p>Colombia</p>
+                    </div>
+                </div>
+
+                <div class = "proyecto">
+                    <img src = "imagenes/contratos.png" alt = "">
+                    <div class = "overlay">
+                        <h3>
+                         Plurality of contracts  
+                        </h3>
+                        <p>Huila,Colombia</p>
+                    </div>
+                </div>
+
+
+
+
+        </div>
+    </section>
+
+
+</body>
+</html>
+
+
+
+    
+
+
+
+
+
+
+
