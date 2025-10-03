@@ -1,4 +1,8 @@
 let menuVisible = false;
+
+/*funcion para mostrar y desaparecer el menu */
+
+
 function mostrarOcultarMenu(){
     if(menuVisible){
         document.getElementById("nav").classList = "";
@@ -9,3 +13,5 @@ function mostrarOcultarMenu(){
         menuVisible = true;
     }
 }
+
+
