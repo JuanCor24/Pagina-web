@@ -20,6 +20,8 @@
     <title>Portfolio</title>
     <link rel = "stylesheet" href = "apariencia.css">
 </head>
+
+
 <body>
     <!-- MENU DE ARRIBA SOLAMENTE  -->
     <div class="contenedor-header">
@@ -29,31 +31,36 @@
             </div>
             <nav id = "nav">
                 <ul>
-                    <li><a href ="#inicio">Home</a></li>
-                    <li><a href ="#sobre_mi">About me</a></li>
-                    <li><a href ="#skills">Skills</a></li>
-                    <li><a href ="#curriculum">Curriculum</a></li>
-                    <li><a href ="#portafolio">Portfolio</a></li>
-                    <li><a href ="#contacto">Contact</a></li>
+                    <li><a href ="#inicio" onclick="seleccionar()">Home</a></li>
+                    <li><a href ="#sobre_mi" onclick="seleccionar()">About me</a></li>
+                    <li><a href ="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href ="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href ="#portafolio" onclick="seleccionar()">Portfolio</a></li>
+                    <li><a href ="#contacto" >Contact</a></li>
                 </ul>
             </nav>
-
-            <div class = "nav-responsive">
-                <i class="fa-notdog fa-solid fa-bars"></i>
-            </div>
             
+            
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                 <i class="fa-solid fa-bars"></i>
+            </div> 
 
-        </header>        
+        </header> 
+        
+        
     </div>
     
     <section id = "inicio" class = "inicio">
         <div class = "contenido-banner">
+            
+
+
             <div class = "contenidodelaimagen">
                 <img src = "imagenes/de perfil.jpg" alt = "">
             </div>
             <h1>Juan Diego</h1>
-            <h2>Ingeniero de Sistemas</h2>
-            <h3>Con énfasis en IA y Ciencia de Datos</h3>
+            <h2>Systems Engineering</h2>
+            <h3>Emphasis in AI and Data Science</h3>
             <!--Esto es para referenciar despues la seccion-->
             <div class = "redes">
                 <a href = "#"><i class="fa-brands fa-linkedin"></i></a> 
@@ -256,9 +263,8 @@
                         <span class = "fecha">2022-2024</span>
                         <span class = "materias"><br>Courses:Introduction to Programming, Advanced Programming, Data Structures.</span>
                         <ul>
-                            <li> Weekly assist Students with doubts in their course or workshop (2 hours) (Average 3 people).</li>
-                            <li>Teaching good practices writing code basic problem-solving techniques of exams and its implementation.</li>
-                            <li>Help the teacher in grading the workshops of his students (20 People).</li>
+                            <li>Weekly group lessons. (8 to 10 people)</li>
+                            <li>Weekly supervising and assisting students in workshop. (20 People)</li>
                         </ul>
                         <div class = "conectord">
                             <div class = "circulod"></div>
@@ -269,10 +275,9 @@
                         <span class = "lugar">Pontificia Universidad Javeriana</span>
                         <span class = "fecha">2024</span>
                         <ul>
-                            <li>Designed user-friendly Excel forms to feed the database.</li>
-                            <li>Organized and structured data tables in Excel implementing automated cleaning and validation processes to ensure consistency and accuracy.</li>
-                            <li>Researched and analyzed students and projects data using Power BI to identify trends and key insights.</li>
-                            <li>Accomplished a 30% error reduction as measured by error rate input by automating validation, using dropdowns and macros. Creation and updating of customer and supplier files.</li>
+                            <li>Accomplished a 30% error reduction as measured by error rate input by automating validation, using dropdowns and macros in Excel.</li>
+                            <li>Researched and analyzed students and projects data using Power BI visualization to identify trends and key insights.</li>
+                            
                         </ul>
                         <div class = "conectord">
                             <div class = "circulod"></div>
@@ -379,7 +384,7 @@
         </div>
     </section>
 
-
+     <!--Seccion Contacto-->
     <section id = "contacto" class = "contacto">
         <div class = "contenido-seccion">
             <h2>
@@ -410,7 +415,7 @@
 
                             <li>
                                 <i class="fa-solid fa-envelope"></i></i>
-                                Email:juandiegocordoba366@gmail.com
+                                Email: juandiegocordoba366@gmail.com
                             </li>
                         </ul>
                     </div>
@@ -419,6 +424,16 @@
             </div>
         </div>
     </section>
+
+
+    <!-- Footer -->
+    <section id = "footer" class = "footer">
+        <a href = #inicio class = "boton"> 
+            <span><i class="fa-solid fa-arrow-up"></i></span>
+        </a>      
+    </section>
+     
+<script src = "movimiento.js"> </script>
 
 </body>
 </html>

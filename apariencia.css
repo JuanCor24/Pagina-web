@@ -64,7 +64,7 @@ html{
 }
 
 
-.contenedor-header header .nav-responsive{
+.nav-responsive{
     background-color: #1CB968;
     color: #ffffff;
     padding: 5px 10px;
@@ -108,7 +108,7 @@ html{
     border: 2px solid #1CB968;
     display: block;
     margin: auto;
-    width: 70%; 
+    width: 100%; 
 }
 
 .inicio .contenido-banner h1{
@@ -693,6 +693,8 @@ html{
     position: relative;
 }
 
+
+
 .contacto .col input, .contacto .col textarea{
     display:block;
     width: 100%;
@@ -706,6 +708,7 @@ html{
 
 .contacto button{
     cursor: pointer;
+    
     background-color: transparent;
     border:2px solid #fff;
     width: fit-content;
@@ -756,4 +759,140 @@ html{
     color:#1CB698;
     display: inline-block;
     margin-right:20px;
+}
+
+.footer{
+    background-color: #131517;
+    height: 50px;
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    align-items: center;
+}
+.footer .boton{
+    cursor:pointer;
+    position: absolute;
+    background-color: #1CB698;
+    border-radius: 50px;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    justify-content: center;
+    transform: translate(-50%, -60%); 
+    color: #fff;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+    
+
+/* Seccion responsive  */
+
+/* Seccion responsive  */
+
+
+/* Seccion responsive  */
+/* Seccion responsive  */
+/* Seccion responsive  *//* Seccion responsive  *//* Seccion responsive  *//* Seccion responsive  */
+
+
+
+/* Seccion responsive  */
+
+
+
+/* Seccion responsive  *//* Seccion responsive  */
+
+
+
+/* Seccion responsive  */
+
+@media screen and (max-width:980px){
+    nav{
+        display:none;
+    }
+    .nav-responsive{
+        display:block;
+    }
+    nav.responsive{
+        display:block;
+        position:absolute;
+        right:0;
+        top:75px;
+        background-color: #252A2E;
+        width:180px;
+    }
+    nav.responsive ul{
+        display:block !important;   /*Importante sobreescribe cualquier regla CSS, */
+    }
+    nav.responsive ul li{
+        border-bottom: 1px solid #fff;
+        padding: 10px;
+    }
+}
+/* Importante el espacio entre and y el parentesis ()*/ 
+@media screen and (max-width: 700px){
+    .sobre_mi .fila{
+        display:block;
+    }
+    .sobre_mi .fila .columna{
+        width: fit-content;
+    }
+    .skills .contenedor-habilidades .fila{
+        display: block;
+    }
+    .skills .contenedor-habilidades .fila .columna{
+        width:100%;
+    }
+    .skills .contenedor-habilidades .fila .columna .barra-skill{
+        width:100%;
+    }
+
+    .curriculum .fila{
+        display:block;
+    }
+    .curriculum .fila .col{
+        width:90%;
+    }
+    /* derecha aplica a todas las frases que esten con derecha a la derecha */
+    .curriculum .fila .derecha{
+        margin-left: 20px;
+    }
+
+    .portafolio .galeria{
+        display: block;
+        width:100%;
+    }
+    .portafolio .galeria .proyecto{
+        max-width: 100%;
+    }
+
+    .portafolio .galeria .proyecto img{
+        width: 100%;
+    }
+
+    .contacto .fila{
+        display: block;
+    }
+    .contacto .fila .col{
+        width: 100%;
+    }
+    .contacto .fila .col button{
+        margin: 70px auto;
+    }
+
 }
