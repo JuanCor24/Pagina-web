@@ -346,17 +346,17 @@ html{
 /* Se agregara automaticamente por medio de javascript */
 
 
-.skills .contenedor-habilidades .javascript{
+.skills .habilidad .javascript{
     width: 0%;
     animation: 2s javascript forwards;
 }
 
 @keyframes javascript{
     0%{width:0%;}
-    100%{width:75%;}
+    100%{width:80%;}
 }
 
-.skills .contenedor-habilidades .htmlcss{
+.skills .habilidad .htmlcss{
     width: 0%;
     animation: 2s htmlcss forwards;
 }
@@ -366,7 +366,7 @@ html{
     100%{width:85%;}
 }
 
-.skills .contenedor-habilidades .cmasmas{
+.skills .habilidad .cmasmas{
     width: 0%;
     animation: 2s cmasmas forwards;
 }
@@ -377,7 +377,7 @@ html{
 }
 
 
-.skills .contenedor-habilidades .gsap{
+.skills .habilidad .gsap{
     width: 0%;
     animation: 2s gsap forwards;
 }
@@ -387,17 +387,18 @@ html{
     100%{width:75%;}
 }
 
-.skills .contenedor-habilidades .sql{
+.skills .fila .columna .habilidad .sql{
     width: 0%;
     animation: 2s sql forwards;
 }
 
 @keyframes sql{
     0%{width:0%;}
-    100%{width:80%;}
+    100%{width:85%;}
 }
 
-.skills .contenedor-habilidades .kotlin{
+
+.skills .fila .habilidad .kotlin{
     width: 0%;
     animation: 2s kotlin forwards;
 }
@@ -407,7 +408,7 @@ html{
     100%{width:90%;}
 }
 
-.skills .contenedor-habilidades .python{
+.skills .habilidad .python{
     width: 0%;
     animation: 2s python forwards;
 }
@@ -417,8 +418,7 @@ html{
     100%{width:80%;}
 }
 
-
-.skills .contenedor-habilidades .teamwork{
+.skills .fila .habilidad .teamwork{
     width: 0%;
     animation: 2s teamwork forwards;
 }
@@ -428,7 +428,8 @@ html{
     100%{width:80%;}
 }
 
-.skills .contenedor-habilidades .scrummaster{
+
+.skills .habilidad .scrummaster{
     width: 0%;
     animation: 2s scrummaster forwards;
 }
@@ -437,6 +438,15 @@ html{
     0%{width:0%;}
     100%{width:85%;}
 }
+
+
+
+
+
+
+
+
+
 
 
 /* Seccion Curriculum */
