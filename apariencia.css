@@ -156,6 +156,7 @@ html{
 
 .sobre_mi .fila{
     display: flex;
+  
 }
 
 .sobre_mi .contenedor-sobre_mi{
@@ -179,7 +180,7 @@ html{
 
 
 .sobre_mi .fila .columna{
-    width: 50%;
+    width: 75%;
 }
 
 .sobre_mi h3{
@@ -215,6 +216,7 @@ html{
 .sobre_mi .fila .columna .contenedor-intereses{
     display:flex;
     flex-wrap: wrap;
+    
 }
 
 .sobre_mi .contenedor-sobre_mi .contenedor-intereses .interes{
@@ -239,7 +241,38 @@ html{
 }
 
 
-.sobre_mi .contenedor-sobre_mi button{
+.sobre_mi .contenedor-sobre_mi .boton{
+    cursor: pointer;
+    background-color: transparent;
+    border:2px solid #fff;
+    width: fit-content;
+    display:block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color:#fff;
+    position: relative;
+    z-index:10;
+    text-decoration:none; /*Esto es para quitar la decoracion por defecto osea una subrayadura*/
+}
+
+
+.sobre_mi .contenedor-sobre_mi .boton .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB968;
+    z-index: -1;
+    transition: 1s;
+}
+
+.sobre_mi .contenedor-sobre_mi .boton:hover .overlay{
+    width:100%;
+}
+
+.sobre_mi .contenedor-sobre_mi .boton{
     cursor: pointer;
     background-color: transparent;
     border:2px solid #fff;
@@ -253,22 +286,20 @@ html{
     z-index:10;
 }
 
-
-.sobre_mi .contenedor-sobre_mi button .overlay{
+.sobre_mi .contenedor-sobre_mi .boton .overlay{
     position: absolute;
     top: 0;
     left: 0;
     width: 0;
-    height: 100%;
-    background-color: #1CB968;
+    height: 15%;
+    background-color: #1CB698;
     z-index: -1;
-    transition: 1s;
+    transition: 1s; 
 }
 
-.sobre_mi .contenedor-sobre_mi button:hover .overlay{
-    width:100%;
+.sobre_mi .contenedor-sobre_mi boton:hover .overlay{
+    width: 100%;
 }
-
 
 
 /* Seccion skills */
