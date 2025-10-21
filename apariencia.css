@@ -213,17 +213,17 @@ html{
 
 
 .sobre_mi .fila .columna .contenedor-intereses{
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
 }
 
 .sobre_mi .contenedor-sobre_mi .contenedor-intereses .interes{
-    width: 195px;
+    width: 295px;
     height: 75px;
     background-color: #252A2E;
     border-radius: 5px;
     margin: 0 10px 10px 0;
-    display:inline-flex;
+    display:inline-flex; /* ruby */
     flex-direction: column;
     align-items: center;
     justify-content: center;
